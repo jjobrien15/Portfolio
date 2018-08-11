@@ -14,7 +14,7 @@ const Navbar = props => (
           </ul>
         </nav>
         <div>
-          <NavbarToggler />
+          <NavbarToggler click={props.sideBarClickHandler}/>
         </div>
       </header>
     //  <div onClick={() => this.scrollTo()}>Click Me</div>

@@ -1,8 +1,13 @@
 import React from 'react';
 import './SideBar.css';
 
-const SideBar = props => (
-      <nav className="sideBar ">
+const SideBar = props => {
+  let sideBarClasses = 'sideBar';
+  if(props.show){
+    sideBarClasses = 'sideBar open';
+  }
+  return(
+      <nav className={sideBarClasses}>
         <ul>
           <li><a href="/">Item 1</a></li>
           <li><a href="/">Item 2</a></li>
@@ -10,5 +15,5 @@ const SideBar = props => (
         </ul>
       </nav>
     );
-
+};
 export default SideBar;

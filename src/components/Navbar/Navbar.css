@@ -42,3 +42,9 @@
 .spacer{
   flex:1;
 }
+
+@media screen and (max-width: 756px){
+  .navbar{
+    display: none;
+  }
+}

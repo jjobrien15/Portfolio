@@ -1,5 +1,5 @@
 .toggle-button{
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   height: 20px;
@@ -19,4 +19,10 @@
   width: inherit;
   height: 2px;
   background: #fff;
+}
+
+@media screen and (max-width: 756px){
+  .toggle-button{
+    display: flex;
+  }
 }
