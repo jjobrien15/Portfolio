@@ -10,11 +10,6 @@
   padding: 0 1rem;
 }
 
-.logo{
-  color: #5CDB95;
-  font-size: 1.5rem;
-}
-
 .navbar{
   height: 100%;
 }
@@ -31,7 +26,7 @@
 }
 
 .navbar a{
-  color: #5CDB95;
+  color: #EDF5E1;
 }
 
 .navbar a:hover,
@@ -41,11 +36,6 @@
 }
 .spacer{
   flex:1;
-}
-
-.social-icon{
-  font-size: 2rem;
-  padding: 0 .5rem;
 }
 
 @media screen and (max-width: 756px){

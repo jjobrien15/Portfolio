@@ -1,0 +1,35 @@
+.social-bar{
+  display:flex;
+  flex-direction: column;
+  position: fixed;
+  left:0;
+  top:25%;
+  padding: 0 0.3rem;
+  background-color: #EDF5E1;
+  border-radius:0 5px 5px 0;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+}
+
+.social-bar.open{
+  transform: translateX(0%);
+  transition: transform 0.3s;
+}
+
+.social-icon a{
+  font-size: 2.5rem;
+  color: #05386B;
+
+}
+
+.social-icon a:hover,
+.social-icon a:active{
+  color: #5CDB95;
+}
+
+.social-label{
+  display: flex;
+  transform:rotate(90deg);
+  text-align:right;
+  color: #05386B;
+}

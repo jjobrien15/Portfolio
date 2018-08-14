@@ -13,6 +13,17 @@ const SideBar = props => {
           <li><a href="/">Item 2</a></li>
           <li><a href="/">Item 3</a></li>
         </ul>
+        <ul>
+          <li className ="social-link">
+            <a href="https://www.facebook.com/joe.obrien.37669" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square"></i></a>
+          </li>
+          <li className ="social-link">
+            <a href="https://twitter.com/Shmoebear" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square"></i></a>
+          </li>
+          <li className ="social-link">
+            <a href="https://github.com/jjobrien15" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square"></i></a>
+          </li>
+        </ul>
       </nav>
     );
 };

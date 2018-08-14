@@ -1,0 +1,3 @@
+Blue -> #05386B
+Seafoam -> #5CDB95
+Cream -> #EDF5E1

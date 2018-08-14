@@ -18,7 +18,7 @@
 .toggle-bar{
   width: inherit;
   height: 3px;
-  background: #5CDB95;
+  background: #EDF5E1;
 }
 .toggle-button:hover .toggle-bar{
     background-color: #EDF5E1;
