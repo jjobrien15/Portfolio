@@ -5,9 +5,9 @@
   height: 20px;
   width: 26px;
   background: transparent;
-  border:none;
+  border: none;
+  margin-right: 1rem;
   cursor: pointer;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -17,8 +17,11 @@
 
 .toggle-bar{
   width: inherit;
-  height: 2px;
-  background: #fff;
+  height: 3px;
+  background: #5CDB95;
+}
+.toggle-button:hover .toggle-bar{
+    background-color: #EDF5E1;
 }
 
 @media screen and (max-width: 756px){

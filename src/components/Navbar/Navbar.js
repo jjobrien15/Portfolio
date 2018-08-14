@@ -4,7 +4,17 @@ import NavbarToggler from '../SideBar/NavbarToggler.js';
 
 const Navbar = props => (
       <header className="header">
-        <div className="logo">Joe O&#39;Brien</div>
+        <div className="logo">JOE O&#39;BRIEN</div>
+        <div className="spacer"/>
+          <div className ="social-icon">
+            <i class="fab fa-facebook-square"></i>
+          </div>
+          <div className ="social-icon">
+            <i class="fab fa-twitter-square"></i>
+          </div>
+          <div className ="social-icon">
+            <i class="fab fa-github-square"></i>
+          </div>
         <div className="spacer"/>
         <nav className="navbar">
           <ul className="navbarList">
